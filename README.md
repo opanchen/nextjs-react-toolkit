@@ -11,3 +11,7 @@
 2. **[JS Spider Web Canvas Animation](https://github.com/opanchen/ui-toolkit-01/tree/03-spider-web-canvas-animation)**
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd29odW1yd3dpZTNqNjNic3I0MGE2bHA0dzF1Z3BqZWJ3OTN6eTJvcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kRcdmsMN3t6uxnucaF/giphy.gif)
+
+4. **[Product Image Zoom Effect](https://github.com/opanchen/ui-toolkit-01/tree/04-image-zoom-effect)**
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTJ3OXBwbTFxbnIycXE4NDE2enAzZGM5ZnpnZ2g3ZTJhdW93emgzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aT7z170IHHBEzqyFCt/giphy.gif)
