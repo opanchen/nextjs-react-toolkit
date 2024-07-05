@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(30deg, rgb(211, 230, 63), rgb(57, 57, 248));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.image:nth-child(1) {
+  background-image: url("/assets/p13.jpeg");
+}
+.image:nth-child(2) {
+  background-image: url("/assets/p1.jpeg");
+}
+.image:nth-child(3) {
+  background-image: url("/assets/p4.jpeg");
+}
+.image:nth-child(4) {
+  background-image: url("/assets/p6.jpeg");
+}
+.image:nth-child(5) {
+  background-image: url("/assets/p5.jpeg");
+}
+
+/* TODO: uncomment to use another variant with JS */
+/* .image.selected, */
+.image:hover {
+  width: 300px;
+  cursor: pointer;
+}
+
+/* TODO: uncomment to use another variant with JS */
+/* .image.selected:before, */
+.image:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, black 0%, black 10%, transparent);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.image .about {
+  /* outline: 1px dashed tomato; */
+  color: aliceblue;
+  position: absolute;
+  align-items: end;
+  width: 300px;
+  height: 45%;
+  padding: 0 20px;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+/* TODO: uncomment to use another variant with JS */
+/* .image.selected .about, */
+.image:hover .about {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.about .name {
+  font-size: 30px;
+  color: rgb(230, 249, 108);
+  margin: 10px 0;
+}
+
+.about .mov {
+  color: rgb(195, 163, 217);
+  margin-bottom: 4px;
+}
+
+.about .button {
+  font-size: 25px;
+}
+
+.about .button ion-icon {
+  padding: 0 5px;
+}
+
+.about .button ion-icon:nth-child(1) {
+  color: rgb(174, 28, 175);
+}
+
+.about .button ion-icon:nth-child(2) {
+  color: rgb(7, 44, 146);
+}
+
+.about .button ion-icon:nth-child(3) {
+  color: rgb(28, 145, 178);
+}
+
+.about .button ion-icon:nth-child(4) {
+  color: rgb(41, 60, 229);
+}
