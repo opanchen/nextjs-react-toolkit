@@ -19,3 +19,7 @@
 5. **[CSS Expandable Cards](https://github.com/opanchen/ui-toolkit-01/tree/05-css-expandable-cards)**
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2FkYWlyZ2kxdWJwY3piMjE5YzB3eHF6cm91cDc1dXFobnpmbjF0aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/99iloMTLXmSfXeSh1H/giphy.gif)
+
+6. **[CSS & JS Card Hover Effects](https://github.com/opanchen/ui-toolkit-01/tree/06-css-card-hover-effects)**
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3FldzA3YXZmMWlpNDByaHN1NW9nam40ZjMwMDEyeTcwZDFlOGllZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e4AqCE7iebfCSZ7BFZ/giphy.gif)
