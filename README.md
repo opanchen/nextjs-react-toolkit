@@ -27,3 +27,7 @@
 7. **[CSS Product Bottle 3D Rotate](https://github.com/opanchen/ui-toolkit-01/tree/07-css-bottle-3d-rotate)**
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajFlZnRpaTNwNjBzaWs4MGcwcXJkZXVsb2E5YXdnbWZ3YTR1aTlhdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qiXaFdka5AWGz7pIVV/giphy.gif)
+
+8. **[Parallax Scroll Animation](https://github.com/opanchen/ui-toolkit-01/tree/08-parallax-scroll-animation)**
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmplcDdsZHR4OW9lMGlvenF4NXdhdTByYWFhb2pjNXd1MXN3bXZjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uUgxwb9mwLdB4A0Dek/giphy.gif)
