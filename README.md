@@ -31,3 +31,7 @@
 8. **[Parallax Scroll Animation](https://github.com/opanchen/ui-toolkit-01/tree/08-parallax-scroll-animation)**
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmplcDdsZHR4OW9lMGlvenF4NXdhdTByYWFhb2pjNXd1MXN3bXZjYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uUgxwb9mwLdB4A0Dek/giphy.gif)
+
+9. **[CSS Product Card](https://github.com/opanchen/ui-toolkit-01/tree/09-product-card)**
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXViaDExeHp5Z2xsMHcwMm5zbXE2ZnhsdjM0Y3AyM2JncHFqaGxuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kQ441Stdteh3YIkKbd/giphy.gif)
