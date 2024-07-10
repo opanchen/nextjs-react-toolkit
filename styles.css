@@ -1,0 +1,121 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.container {
+  inline-size: min(100% - 4rem, 70rem);
+  margin-inline: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+
+  font-size: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  /* ? */
+  max-inline-size: none;
+}
+
+#first-word {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
+
+/*  */
+
+.wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  --duration: 20s;
+  --item-width: 200px;
+  --item-height: 100px;
+
+  width: var(--item-width);
+  height: var(--item-height);
+  border-radius: 6px;
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+
+  position: absolute;
+  left: max(calc(var(--item-width) * var(--qty)), 100%);
+  animation-name: scrollLeft;
+  animation-duration: var(--duration);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: calc(
+    var(--duration) / var(--qty) * (var(--qty) - var(--idx)) * -1
+  );
+
+  transition: filter 0.5s;
+}
+
+.item > img {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.wrapper:hover .item {
+  /* animation-play-state: paused !important; */
+  animation-play-state: paused;
+  filter: grayscale(1);
+}
+
+.wrapper .item:hover {
+  filter: grayscale(0);
+}
+
+/* .item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+} */
