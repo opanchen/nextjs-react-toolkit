@@ -39,3 +39,7 @@
 10. **[CSS Horizontal Media Scroll](https://github.com/opanchen/ui-toolkit-01/tree/10-css-horizontal-media-scroller)**
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODQzOWI4MmV4NGJyNmcxOGlvcXh1dDFtcDc2dzZrZ3Z6NThjemNpYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/chbPBSEbtyGeAK72kb/giphy.gif)
+
+11. **[CSS Horizontal Infinite Scroll](https://github.com/opanchen/ui-toolkit-01/tree/11-css-horizontal-infinite-scroll?tab=readme-ov-file)**
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhwajR3bXZpYWR0dG45eTZ3ZmUwc2wzcTY3OWZleXRzZ2Q0NnkyNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8GL9xyq3OJoCXUJomg/giphy.gif)
